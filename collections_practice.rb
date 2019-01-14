@@ -12,7 +12,6 @@ def sort_array_char_count(array)
    thing.length 
    new_array << thing 
   end
-    new_array.sort do |x, y| 
-      x <=> y
+    new_array.sort 
 end
 end
