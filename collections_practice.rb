@@ -38,8 +38,9 @@ end
 def add_s(array)
   array.each do |i|
      i << "s"
-     i[1].pop
    end
+   array[1].pop
+   array
  end
 
 
