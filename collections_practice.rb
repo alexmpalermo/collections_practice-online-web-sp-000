@@ -37,8 +37,8 @@ end
 
 def add_s(array)
   array.each do |i|
-   if i != i[1] 
      i << "s"
+     i[1].pop
    end
  end
 end
