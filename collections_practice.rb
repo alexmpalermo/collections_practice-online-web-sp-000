@@ -14,4 +14,4 @@ def sort_array_char_count(array)
   end
     new_array.sort 
 end
-end
+
