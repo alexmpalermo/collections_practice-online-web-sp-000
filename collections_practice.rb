@@ -38,7 +38,7 @@ end
 def add_s(array)
   array.each do |i|
    if i == i[1] 
-     i
+     i = i
    else 
      i << "s"
    end
