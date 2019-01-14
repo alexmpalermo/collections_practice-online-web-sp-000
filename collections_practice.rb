@@ -21,7 +21,7 @@ end
 
 def kesha_marker(array)
   array.each do |i|
-    i[2] = $ 
+    i[2] = "$"
 end
 end
 
