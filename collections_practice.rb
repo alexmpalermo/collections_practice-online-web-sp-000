@@ -8,9 +8,9 @@ end
 
 def sort_array_char_count(array)
  
-  array.each do {|thing| thing.length}
- 
-  end
+  array.each do |thing| 
+    thing.length
     array.sort 
+  end
 end
 
