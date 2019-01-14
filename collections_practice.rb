@@ -18,3 +18,10 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_marker(array)
+  array.each do |i|
+    i[2] = $ 
+end
+
+
